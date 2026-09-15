@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Financeiro</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Dashboard Financeiro</h1>
+
+<section>
+   <div class="card">
+    <h2>Entradas</h2>
+    <p id="entradas"></p>
+   </div>
+
+   <div class="card">
+    <h2>Saídas</h2>
+    <p  id="saidas"></p>
+   </div>
+
+   <div class="card">
+    <h2>Saldo Líquido</h2>
+    <p id="saldo"></p>
+   </div>
+
+</section>
+
+<form id="form">
+   <input id="descricao" type="text" placeholder="Tipo de gasto, ex: aluguel.">
+
+<select id="tipo">
+    <option value="receita">Receita</option>
+    <option value="despesa">Despesas</option>
+</select>
+
+   <input id="valor" type="number" placeholder="Valor em dinheiro.">
+
+   <button id="adicionar" type="submit">Adicionar</button>
+</form>
+
+<div class="filtro">
+    <button type="button" id="todas">Todas</button>
+    <button type="button" id="receitas">Receitas</button>
+    <button type="button" id="despesas">Despesas</button>
+</div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>INDENTIFICADOR
+                </th>
+                <th>DESCRIÇÃO</th>
+                <th>CLASSIFICAÇÃO</th>
+                <th>VALOR</th>
+            </tr>
+        </thead>
+
+        <tbody id="transacoes">
+
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

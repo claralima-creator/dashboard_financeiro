@@ -1,0 +1,185 @@
+body{
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: rgb(20, 18, 18);
+    color: white;
+    padding: 20px;
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgb(162, 100, 220);
+}
+
+section{
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    justify-content:center;
+    gap: 20px;
+    
+}
+
+.card{
+    background-color: rgb(59, 5, 121);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    flex: 1;
+    box-shadow: 0 0 10px rgb(175, 48, 234);
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+#entradas{
+    font-size: 30px;
+    color: rgb(82, 198, 82);
+    font-weight: 500;
+}
+
+#saidas{
+    font-size: 30px;
+    color: rgb(201, 61, 61);
+    font-weight: 500;
+}
+#saldo{
+    font-size: 30px;
+    color: rgb(90, 180, 255);
+    font-weight: 700;
+}
+
+h2{
+    padding: 10px;
+    margin-bottom: 15px;
+
+}
+
+table{
+    width: 80%;
+    margin: 20px auto;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    border: 1px solid rgb(195, 59, 229);
+}
+
+td {
+    border: 1px solid rgb(52, 51, 51);
+}
+
+table button {
+    background-color: rgb(52, 51, 51);
+    color: white;
+    border: 1px solid rgb(247, 236, 236);
+    border-radius: 8px;
+}
+
+ table button:hover{
+   background-color: rgb(226, 45, 45);
+   border: 1px solid white;
+   border-radius: 5px;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+
+#descricao {
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(195, 48, 232);
+    padding: 8px;
+    margin: 10px;
+    border-radius: 8px;
+    
+
+}
+
+#tipo{
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(195, 48, 232);
+    width: 100px;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 10px;
+
+}
+
+#valor {
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(195, 48, 232);
+    border-radius: 8px;
+    padding: 8px;
+    margin: 10px;
+}
+
+#adicionar {
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(195, 48, 232);
+    padding: 8px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+#descricao:focus,
+#tipo:focus,
+#valor:focus {
+    outline: none;
+    border: 1px solid rgb(195, 48, 232);
+    background-color: black;
+    color: white;
+}
+
+#adicionar:hover{
+    background-color: rgb(76, 228, 132);
+    color: black;
+}
+
+#todas,
+#receitas,
+#despesas {
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    border: 1px solid rgb(48, 128, 232);
+    text-align: center;
+    padding: 8px;
+    margin: 15px;
+}
+
+.filtro{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+#todas:hover{
+    background-color: rgb(44, 127, 44);
+    border: 1px solid rgb(236, 238, 241);
+    color: black;
+}
+
+#receitas:hover{
+    background-color: rgb(38, 149, 209);
+    border: 1px solid rgb(236, 238, 241);
+    color: black;
+}
+
+#despesas:hover {
+    background-color: rgb(213, 26, 26);
+    border: 1px solid rgb(236, 238, 241);
+    color: black;
+}
+
