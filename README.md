@@ -1,4 +1,3 @@
-# dashboard_financeiro
 # 📊 Dashboard Financeiro
 
 Dashboard financeiro desenvolvido como projeto prático de estudos em JavaScript.
@@ -55,18 +54,6 @@ Também foram praticados conceitos de CSS, como:
 * Transições
 * Box-shadow
 * Estilização de formulários e tabelas
-
-## 💻 Como executar
-
-1. Clone este repositório:
-
-```bash
-git clone URL_DO_REPOSITORIO
-```
-
-2. Abra a pasta do projeto.
-
-3. Abra o arquivo `index.html` no navegador.
 
 ## 🎯 Objetivo
 
